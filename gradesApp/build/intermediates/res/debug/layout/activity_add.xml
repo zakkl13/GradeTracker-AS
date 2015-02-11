@@ -1,0 +1,143 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.gradesapp.AddGradesActivity" >
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/addClass"
+        android:layout_alignBottom="@+id/addClass"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:onClick="button2"
+        android:text="Calc" />
+
+    <Spinner
+        android:id="@+id/categories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/clsName"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="36dp"
+        android:layout_toLeftOf="@+id/addCat" />
+
+    <Button
+        android:id="@+id/addClass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="34dp"
+        android:layout_toLeftOf="@+id/button2"
+        android:onClick="addAnother"
+        android:text="Add Another" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:text="Choose your category"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/clsName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignLeft="@+id/gradeName"
+        android:text="Add some new grades" />
+
+    <EditText
+        android:id="@+id/gradeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignRight="@+id/addClass"
+        android:layout_below="@+id/button1"
+        android:ems="10"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/gradeName"
+        android:layout_alignRight="@+id/addClass"
+        android:layout_below="@+id/gradeName"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:hint="pts Recieved"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/totPts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name"
+        android:layout_alignRight="@+id/addClass"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="38dp"
+        android:ems="10"
+        android:hint="total Pts" />
+
+    <TextView
+        android:id="@+id/grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/name"
+        android:layout_alignRight="@+id/button2"
+        android:text="Grade"
+        android:maxLength="4"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/addCat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/button1"
+        android:layout_alignTop="@+id/categories"
+        android:layout_marginTop="24dp"
+        android:onClick="addCat"
+        android:text="Add Category" />
+
+    <Button
+        android:id="@+id/button4"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/addCat"
+        android:layout_alignRight="@+id/addCat"
+        android:onClick="home"
+        android:text="Home" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/grade"
+        android:layout_below="@+id/addCat"
+        android:onClick="delete"
+        android:text="Delete Category" />
+
+    <Button
+        android:id="@+id/button3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/addCat"
+        android:layout_below="@+id/totPts"
+        android:onClick="clear"
+        android:text="Clear Assignments" />
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/SWAT%20Loaner/AndroidStudioProjects/GradeTracker2/gradesApp/src/main/res/layout/activity_add.xml -->

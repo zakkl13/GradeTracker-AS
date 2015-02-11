@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.gradesapp.GradeCalculatorActivity" >
+
+    <TextView
+        android:id="@+id/clsName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time to Calculate" />
+
+    <TextView
+        android:id="@+id/curGrade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/clsName"
+        android:layout_below="@+id/clsName"
+        android:layout_marginTop="50dp"
+        android:text="Average 1 and what needed to maintain or raise"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/curGrade"
+        android:layout_marginTop="42dp"
+        android:text="Average 2..."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="35dp"
+        android:text="etc..."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/addClass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/curGrade"
+        android:layout_marginBottom="18dp"
+        android:layout_marginLeft="33dp"
+        android:layout_toRightOf="@+id/curGrade"
+        android:text="View" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/addClass"
+        android:layout_alignTop="@+id/textView3"
+        android:text="View" />
+
+</RelativeLayout><!-- From: file:/C:/Users/SWAT%20Loaner/AndroidStudioProjects/GradeTracker2/gradesApp/src/main/res/layout/activity_grade_calculator.xml -->

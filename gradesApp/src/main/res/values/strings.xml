@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GradesApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_class1">Class1Activity</string>
+    <string name="title_activity_class2">Class2Activity</string>
+    <string name="title_activity_class3">Class3Activity</string>
+    <string name="title_activity_class4">Class4Activity</string>
+    <string name="title_activity_grade_calculator">GradeCalculatorActivity</string>
+    <string name="title_activity_add">AddActivity</string>
+    <string name="title_activity_view">ViewActivity</string>
+    <string name="title_activity_add_class">AddClass</string>
+    <string name="title_activity_class_display">ClassDisplay</string>
+    <string name="title_activity_add_assignment_weight">AddAssignmentWeight</string>
+
+</resources>

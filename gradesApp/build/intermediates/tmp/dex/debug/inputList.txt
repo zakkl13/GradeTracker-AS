@@ -1,0 +1,7 @@
+C:\Users\SWAT Loaner\AndroidStudioProjects\GradeTracker2\gradesApp\build\intermediates\classes\debug
+C:\Users\SWAT Loaner\AndroidStudioProjects\GradeTracker2\gradesApp\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-ac87a4d0eb91531abd05d6d998eb890150c045a6.jar
+C:\Users\SWAT Loaner\AndroidStudioProjects\GradeTracker2\gradesApp\build\intermediates\pre-dexed\debug\classes-8c1dad2fa2dde933ef56131d1317ca76faf1818f.jar
+C:\Users\SWAT Loaner\AndroidStudioProjects\GradeTracker2\gradesApp\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-10b704a4a4c71e68df7e91c22d0b3fd66db4610a.jar
+C:\Users\SWAT Loaner\AndroidStudioProjects\GradeTracker2\gradesApp\build\intermediates\pre-dexed\debug\gson-1.7.1-fe2405d19ae401ec1ddb38904617a7ff8dc3000c.jar
+C:\Users\SWAT Loaner\AndroidStudioProjects\GradeTracker2\gradesApp\build\intermediates\pre-dexed\debug\classes-c60d8442ffed60b31e9d878ae3a2655bc9d1d05a.jar
+C:\Users\SWAT Loaner\AndroidStudioProjects\GradeTracker2\gradesApp\build\intermediates\pre-dexed\debug\classes-581568b58caf92e3247f6bc7f0d9aa3aa74eff67.jar

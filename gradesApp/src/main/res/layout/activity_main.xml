@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.gradesapp.MainActivity" >
+
+    <TextView
+        android:id="@+id/clsName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grades App" />
+
+    <TextView
+        android:id="@+id/curGrade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/clsName"
+        android:layout_marginTop="20dp"
+        android:text="Choose your class"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Spinner
+        android:id="@+id/classSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/curGrade"
+        android:layout_below="@+id/curGrade" />
+
+    <Button
+        android:id="@+id/addClass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/classSpinner"
+        android:layout_below="@+id/classSpinner"
+        android:onClick="addClass"
+        android:text="Add Class" />
+
+    <Button
+        android:id="@+id/addCat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goToClass"
+        android:text="Go"
+        android:layout_below="@+id/button1"
+        android:layout_alignRight="@+id/clsName"
+        android:layout_alignEnd="@+id/clsName" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/addClass"
+        android:layout_below="@+id/addClass"
+        android:layout_marginTop="45dp"
+        android:onClick="deleteClass"
+        android:text="Delete Class" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_below="@+id/addCat"
+        android:layout_marginTop="53dp"
+        android:text="Your Current GPA is"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/gpa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignRight="@+id/addCat"
+        android:maxLength="4"
+        android:text=" "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

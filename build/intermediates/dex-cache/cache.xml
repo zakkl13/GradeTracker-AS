@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\SWAT Loaner\AndroidStudioProjects\GradeTracker2\gradesApp\build\intermediates\exploded-aar\com.android.support\appcompat-v7\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef">
+        <dex dex="C:\Users\SWAT Loaner\AndroidStudioProjects\GradeTracker2\gradesApp\build\intermediates\pre-dexed\debug\classes-c60d8442ffed60b31e9d878ae3a2655bc9d1d05a.jar" />
+    </item>
+    <item
+        jar="C:\Users\SWAT Loaner\AndroidStudioProjects\GradeTracker2\gradesApp\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="C:\Users\SWAT Loaner\AndroidStudioProjects\GradeTracker2\gradesApp\build\intermediates\pre-dexed\debug\classes-581568b58caf92e3247f6bc7f0d9aa3aa74eff67.jar" />
+    </item>
+    <item
+        jar="C:\Users\SWAT Loaner\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="C:\Users\SWAT Loaner\AndroidStudioProjects\GradeTracker2\gradesApp\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-ac87a4d0eb91531abd05d6d998eb890150c045a6.jar" />
+    </item>
+    <item
+        jar="C:\Users\SWAT Loaner\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\1.7.1\697e3a1fa094a983cd12f7f6f61abf9c6ea52e2\gson-1.7.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0697e3a1fa094a983cd12f7f6f61abf9c6ea52e2">
+        <dex dex="C:\Users\SWAT Loaner\AndroidStudioProjects\GradeTracker2\gradesApp\build\intermediates\pre-dexed\debug\gson-1.7.1-fe2405d19ae401ec1ddb38904617a7ff8dc3000c.jar" />
+    </item>
+    <item
+        jar="C:\Users\SWAT Loaner\AndroidStudioProjects\GradeTracker2\gradesApp\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="C:\Users\SWAT Loaner\AndroidStudioProjects\GradeTracker2\gradesApp\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-10b704a4a4c71e68df7e91c22d0b3fd66db4610a.jar" />
+    </item>
+    <item
+        jar="C:\Users\SWAT Loaner\AndroidStudioProjects\GradeTracker2\gradesApp\build\intermediates\exploded-aar\GradeTracker2\complexPreferences\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8611a4add082242573967e36e47d6bacd980623a">
+        <dex dex="C:\Users\SWAT Loaner\AndroidStudioProjects\GradeTracker2\gradesApp\build\intermediates\pre-dexed\debug\classes-8c1dad2fa2dde933ef56131d1317ca76faf1818f.jar" />
+    </item>
+
+</items>
