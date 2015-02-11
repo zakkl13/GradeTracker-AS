@@ -10,19 +10,18 @@ public class CategoryContract {
     public static final String TABLE_NAME ="category";
 
     public static final String SQL_CREATE_TABLE = "CREATE TABLE "
-            + ClassContract.TABLE_NAME
-            + " ("
-            + ClassContract.ClassEntry._ID
-            + " INTEGER PRIMARY KEY AUTOINCREMENT,"
-            + ClassContract.ClassEntry.COLUMN_NAME
-            + " TEXT,"
-            + ClassContract.ClassEntry.COLUMN_CREDITS
-            + " INTEGER);";
+            + CategoryContract.TABLE_NAME + " ("
+            + CategoryContract.CategoryEntry._ID + " INTEGER PRIMARY KEY AUTOINCREMENT,"
+            + CategoryContract.CategoryEntry.COLUMN_NAME + " TEXT,"
+            + CategoryContract.CategoryEntry.COLUMN_WEIGHT + " DOUBLE,"
+            + "FOREIGN KEY (" + CategoryContract.CategoryEntry.COLUMN_CLASS_ID
+            + ") REFERENCES classes(" + ClassContract.ClassEntry._ID + "));";
 
-    public static abstract class ClassEntry implements BaseColumns {
+    public static abstract class CategoryEntry implements BaseColumns {
 
         public static final String COLUMN_NAME = "name";
-        public static final String COLUMN_CREDITS = "credits";
+        public static final String COLUMN_WEIGHT = "weight";
+        public static final String COLUMN_CLASS_ID = "class_id";
     }
 
 }

@@ -20,7 +20,7 @@ public class Category implements Parcelable {
 
 private String name;
 private ArrayList<Assignment> assmt;
-private int weight;
+private double weight;
 private Double grade;
 
 
@@ -31,7 +31,7 @@ private Double grade;
 * @param name        The name of the category
 *
 */
-public Category(int weight, String name)
+public Category(double weight, String name)
 {
    this.weight = weight;
    this.name = name;
@@ -85,7 +85,7 @@ public void saveCategory(Context appContext)
 * Gets the weights of the assignment.
 * @return Returns the value of the weight
 */
-public int getWeight() {
+public double getWeight() {
    return weight;
 }
 
@@ -94,7 +94,7 @@ public int getWeight() {
 * Sets the weight of the assignment.
 * @param weight The assignment's weight
 */
-public void setWeight(int weight) {
+public void setWeight(double weight) {
    this.weight = weight;
 }
 
@@ -192,7 +192,7 @@ public void setGrade() {
         } else {
             assmt = null;
         }
-        weight = in.readInt();
+        weight = in.readDouble();
         grade = in.readByte() == 0x00 ? null : in.readDouble();
     }
 
@@ -210,7 +210,7 @@ public void setGrade() {
             dest.writeByte((byte) (0x01));
             dest.writeList(assmt);
         }
-        dest.writeInt(weight);
+        dest.writeDouble(weight);
         if (grade == null) {
             dest.writeByte((byte) (0x00));
         } else {
