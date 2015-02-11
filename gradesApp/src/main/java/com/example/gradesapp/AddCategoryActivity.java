@@ -9,6 +9,9 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.example.gradesapp.model.Category;
+import com.example.gradesapp.model.User;
+
 // -------------------------------------------------------------------------
 /**
  *  This class is used in order to add activities to the categories menu.

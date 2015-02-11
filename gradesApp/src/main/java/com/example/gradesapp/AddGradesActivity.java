@@ -18,6 +18,8 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.example.gradesapp.model.*;
+
 // -------------------------------------------------------------------------
 /**
  *  This class handles when grades are added.
@@ -30,7 +32,7 @@ import android.view.MenuItem;
 public class AddGradesActivity
     extends ActionBarActivity implements Observer, OnItemSelectedListener
 {
-    private Class thisClass;
+    private com.example.gradesapp.model.Class thisClass;
     private User clss;
     private ArrayList<Category> categories;
     private Category currentCat;

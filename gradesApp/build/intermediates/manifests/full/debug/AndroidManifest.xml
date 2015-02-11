@@ -28,22 +28,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.gradesapp.Class1Activity"
-            android:label="@string/title_activity_class1" >
-        </activity>
-        <activity
-            android:name="com.example.gradesapp.Class2Activity"
-            android:label="@string/title_activity_class2" >
-        </activity>
-        <activity
-            android:name="com.example.gradesapp.Class3Activity"
-            android:label="@string/title_activity_class3" >
-        </activity>
-        <activity
-            android:name="com.example.gradesapp.Class4Activity"
-            android:label="@string/title_activity_class4" >
-        </activity>
-        <activity
             android:name="com.example.gradesapp.GradeCalculatorActivity"
             android:label="@string/title_activity_grade_calculator" >
         </activity>

@@ -1,18 +1,17 @@
 package com.example.gradesapp;
 
 import android.widget.Toast;
-import br.com.kots.mob.complex.preferences.ComplexPreferences;
 import android.support.v7.app.ActionBarActivity;
-import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
-import android.content.SharedPreferences.Editor;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.RadioGroup;
+
+import com.example.gradesapp.model.*;
+import com.example.gradesapp.model.Class;
 
 // -------------------------------------------------------------------------
 /**
@@ -93,7 +92,7 @@ public class AddClassActivity extends ActionBarActivity {
 		EditText className = (EditText) findViewById(R.id.name);
 
 		//Create a class object with the information from the editText fields
-		Class cls = new Class(Integer.parseInt(crHours.getText().toString()),
+		com.example.gradesapp.model.Class cls = new Class(Integer.parseInt(crHours.getText().toString()),
 		    passFail, className.getText().toString());
 
 		if (classExist(cls))

@@ -19,6 +19,8 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.example.gradesapp.model.User;
+
 /**
  *  Description of class.
  *

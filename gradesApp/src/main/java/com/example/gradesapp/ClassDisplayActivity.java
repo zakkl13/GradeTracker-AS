@@ -1,6 +1,5 @@
 package com.example.gradesapp;
 
-import android.util.Log;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.app.ActionBar;
@@ -9,16 +8,15 @@ import java.util.Observable;
 import java.util.Observer;
 
 import android.support.v7.app.ActionBarActivity;
-import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.Spinner;
 import android.widget.TextView;
+
+import com.example.gradesapp.model.*;
 
 /**
  *  Description of class.
@@ -30,7 +28,7 @@ import android.widget.TextView;
  */
 public class ClassDisplayActivity extends ActionBarActivity
 implements Observer {
-	private Class thisClass;
+	private com.example.gradesapp.model.Class thisClass;
 	private User clss;
 
 	/**
