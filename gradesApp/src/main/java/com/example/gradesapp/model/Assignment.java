@@ -17,6 +17,7 @@ public class Assignment implements Parcelable {
 	private String name;
 	private double totPts;
 	private double ptsRecieved;
+    private long aId;
 
 	// ----------------------------------------------------------
 	/**
@@ -76,6 +77,23 @@ public class Assignment implements Parcelable {
 	public double getPtsRecieved() {
 		return ptsRecieved;
 	}
+
+    // ----------------------------------------------------------
+    /**
+     * @return the classes DB id
+     */
+    public long getId() {
+        return aId;
+    }
+
+    // ----------------------------------------------------------
+    /**
+     * Sets the id of the class from the database
+     * @param id the id of the class as given by the database
+     */
+    public void setId(long id) {
+        aId = id;
+    }
 
 	// ----------------------------------------------------------
 	/**

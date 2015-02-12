@@ -108,8 +108,8 @@ public class MainActivity
         // show it
         alertDialog.show();
 
-        Toast.makeText(this, "Welcome " +
-            userName.getText().toString(), Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this, "Welcome " +
+          //      userName.getText().toString(), Toast.LENGTH_SHORT).show();
     }
 
 	private void updateSpinner() {
@@ -130,8 +130,9 @@ public class MainActivity
     public void addClass(View view)
     {
     	Intent intent = new Intent(this, AddClassActivity.class);
-    	intent.putExtra("Classes", clss);
         startActivity(intent);
+
+        //putClass() into database
     }
 
     /**
@@ -161,6 +162,7 @@ public class MainActivity
     	clss.setCurClass(curClass);
 
     	clss.deleteClass();
+        //db deleteclass
 
     	clss.saveModel(getApplicationContext());
 

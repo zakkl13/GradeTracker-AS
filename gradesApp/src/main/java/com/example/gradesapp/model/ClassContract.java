@@ -19,6 +19,9 @@ public class ClassContract {
                                                 + ClassContract.ClassEntry.COLUMN_CREDITS
                                                 + " INTEGER);";
 
+    private static final String SQL_DELETE_ENTRIES =
+            "DROP TABLE IF EXISTS " + ClassContract.TABLE_NAME;
+
     public static abstract class ClassEntry implements BaseColumns {
 
                 public static final String COLUMN_NAME = "name";

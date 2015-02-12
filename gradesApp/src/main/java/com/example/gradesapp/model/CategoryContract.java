@@ -17,6 +17,9 @@ public class CategoryContract {
             + "FOREIGN KEY (" + CategoryContract.CategoryEntry.COLUMN_CLASS_ID
             + ") REFERENCES classes(" + ClassContract.ClassEntry._ID + "));";
 
+    private static final String SQL_DELETE_ENTRIES =
+            "DROP TABLE IF EXISTS " + CategoryContract.TABLE_NAME;
+
     public static abstract class CategoryEntry implements BaseColumns {
 
         public static final String COLUMN_NAME = "name";

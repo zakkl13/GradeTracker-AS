@@ -258,7 +258,7 @@ public class Class implements Parcelable {
 	/**
 	 * @return the classes DB id
 	 */
-	public long getID() {
+	public long getId() {
 		return oId;
 	}
 

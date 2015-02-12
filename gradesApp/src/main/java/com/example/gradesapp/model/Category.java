@@ -22,6 +22,8 @@ private String name;
 private ArrayList<Assignment> assmt;
 private double weight;
 private Double grade;
+private long oId;
+private long classId;
 
 
 // ---------------------------------------------------------
@@ -31,10 +33,11 @@ private Double grade;
 * @param name        The name of the category
 *
 */
-public Category(double weight, String name)
+public Category(double weight, String name, long classId)
 {
    this.weight = weight;
    this.name = name;
+   this.classId = classId;
    assmt = new ArrayList<Assignment>();
    grade = 0.00;
 
@@ -182,6 +185,23 @@ public void setGrade() {
 
       return false;
   }
+
+    // ----------------------------------------------------------
+    /**
+     * @return the classes DB id
+     */
+    public long getId() {
+        return oId;
+    }
+
+    // ----------------------------------------------------------
+    /**
+     * Sets the id of the class from the database
+     * @param id the id of the class as given by the database
+     */
+    public void setId(long id) {
+        oId = id;
+    }
 
 
     protected Category(Parcel in) {

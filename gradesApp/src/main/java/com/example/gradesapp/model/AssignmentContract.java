@@ -18,6 +18,9 @@ public class AssignmentContract {
             + "FOREIGN KEY (" + AssignmentContract.AssignmentEntry.COLUMN_CATEGORY_ID
             + ") REFERENCES classes(" + CategoryContract.CategoryEntry._ID + "));";
 
+    private static final String SQL_DELETE_ENTRIES =
+            "DROP TABLE IF EXISTS " + AssignmentContract.TABLE_NAME;
+
     public static abstract class AssignmentEntry implements BaseColumns {
 
         public static final String COLUMN_NAME = "name";
